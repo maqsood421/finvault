@@ -1,16 +1,17 @@
 const express = require("express");
-const mysql_db = require("./db");
+const cors = require("cors");
+require("dotenv").config();
 
-const PORT = process.env.PORT || 4000;
+const authRoutes = require("./routes/auth");
 
 const app = express();
+const PORT = process.env.PORT || 4000;
 
-(async () => {
-  const db = await mysql_db();
-  const [result] = await db.execute(`SELECT  2 * 2`);
-  console.log(result);
-})();
+app.use(cors());
+app.use(express.json());
+
+app.use("/api/auth", authRoutes);
 
 app.listen(PORT, () => {
-  console.log(`Listening on PORT:${PORT}`);
+  console.log(`✅ Server running on http://localhost:${PORT}`);
 });
