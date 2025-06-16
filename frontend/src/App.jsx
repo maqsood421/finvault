@@ -1,11 +1,13 @@
 import React from "react"
+import Login from "./pages/Login"
+import Signup from "./pages/Signup"
 
 function App() {
 
   return (
-    <div className="text-xl font-bold text-blue-600">
-      Tailwind is working!
-    </div>
+    // <Login/>
+
+    <Signup/>
   )
 }
 

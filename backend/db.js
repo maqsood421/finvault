@@ -1,13 +1,13 @@
-const mysql = require("mysql2");
+const mysql = require("mysql2/promise");
 
-const app = mysql.createConnection({
-  host: "localhost",
-  user: "root",
-  password: "idontknow"
-  // database: ""
-});
+const mysql_db = async () => {
+  const connection = await mysql.createConnection({
+    host: "localhost",
+    user: "root",
+    password: "idontknow",
+    database: "finvault_db"
+  });
+  return connection;
+};
 
-app.connect((err) => {
-  if (err) throw error;
-  console.log("Mysql connected Successfully!");
-});
+module.exports = mysql_db;
