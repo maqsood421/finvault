@@ -1,6 +1,6 @@
-Here’s the **README.md** code you can directly paste into your FinVault project repo:
 
-````markdown
+
+markdown
 # **FinVault** 💰
 > Your Secure, Smart, and Simple Financial Vault
 
@@ -37,7 +37,7 @@ Here’s the **README.md** code you can directly paste into your FinVault projec
 ```bash
 git clone https://github.com/yourusername/finvault.git
 cd finvault
-````
+
 
 ### 2️⃣ Install Dependencies
 
