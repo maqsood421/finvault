@@ -35,9 +35,6 @@ Gain real-time insights, store financial records safely, and make smarter money 
 
 ---
 
-## 📸 Screenshots
-> *(Add your UI screenshots here)*
-
 ---
 
 ## 📦 Installation
