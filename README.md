@@ -1,6 +1,3 @@
-
-
-````markdown
 <h1 align="center">💰 FinVault</h1>
 <p align="center">
   <i>Your Secure, Smart, and Simple Financial Vault</i>
@@ -59,38 +56,3 @@ JWT_SECRET=your_secret_key
 
 # 4️⃣ Run the app
 npm run dev
-````
-
----
-
-## 📄 Usage
-
-1. Sign up or log in
-2. Add and categorize transactions
-3. View insights and reports
-
----
-
-## 🤝 Contributing
-
-We welcome contributions!
-
-1. Fork the repo
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a pull request
-
----
-
-## 📜 License
-
-Licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
-
----
-
-## 📬 Contact
-
-**Maqsood Ahmed**
-[🌐 Portfolio](https://maqsood-dev.online) | [🐙 GitHub](https://github.com/maqsood421) | [💼 LinkedIn](https://linkedin.com/in/maqsood-ahmed1)
-
